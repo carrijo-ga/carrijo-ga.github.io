@@ -41,28 +41,28 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
+  
 .column {
   position: center;
   width: 100%;
   float: center;
   box-sizing: border-box; }
 
-.photocontainer{
+.bordercontainer{
   text-align: center;
   margin: 0 auto;
   padding: 0px;
-  background-color: linear-gradient(#CC3383, #FBBE60,#F06A3C, #684CC2,#9538B8,#4D64D2,#8F39A1,#FCDC84,#EC4355,#F18554);
-  width: 330px;
+  background-image: linear-gradient(to bottom, #405de6, #9d47d2, #d125b2, #f1008a, #ff0060, #ff2449, #ff3e2f, #ff5605, #ff7200, #ff8c00, #ffa300, #ffb900);  width: 330px;
   height: 330px;
   border-radius: 50%;
 }
 
 #photo {
   width: 310px;
-  margin: 5px;
+  margin: 3px;
   border-radius: 50%;
   align-items: center;
-  border: 5px solid #FFFFFF;
+  border: 6px solid;
 }
 
 /* For devices larger than 400px */
