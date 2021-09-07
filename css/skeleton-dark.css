@@ -98,14 +98,25 @@ html {
 }
 
 body {
-  background-image: url(../resources/Lines.gif);
-  background-position: center;
-  background-size: cover;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF; }
+  color: #FFFFFF; 
+}
+
+.bg_video{
+  position: fixed; 
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  z-index: -1000;
+  background: url(../resources/Neon.mp4) no-repeat;
+  background-size: cover; 
+}
 
 
 /* Typography
